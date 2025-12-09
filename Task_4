@@ -17,8 +17,8 @@ public struct Weather
     {
         static void Main()
         {
-            var w1 = new Weather { City = "Москва", Temperature = 22.5 };
-            var w2 = new Weather { City = "Сочи", Temperature = null };
+            var w1 = new Weather { City = "Самара", Temperature = 18 };
+            var w2 = new Weather { City = "Омск", Temperature = null };
 
             Console.WriteLine(w1); 
             Console.WriteLine(w2);
